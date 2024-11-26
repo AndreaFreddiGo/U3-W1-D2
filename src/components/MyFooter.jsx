@@ -5,10 +5,12 @@ import Row from 'react-bootstrap/Row'
 
 const MyFooter = () => {
   return (
-    <div collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <div expand="lg" className="bg-body-tertiary">
       <Container>
-        <Row className="d-flex">
-          <Navbar.Brand href="#home">EpiBooks</Navbar.Brand>
+        <Row>
+          <Navbar.Brand href="#home" className="">
+            EpiBooks
+          </Navbar.Brand>
           <Nav.Link href="#features">Contacts</Nav.Link>
           <Nav.Link href="#pricing">About Us</Nav.Link>
         </Row>
